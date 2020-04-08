@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Colors Table View Controller-->
+        <!--Rainbow-->
         <scene sceneID="dBx-gL-cK6">
             <objects>
                 <tableViewController id="ro1-zl-dNr" customClass="ColorsTableViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="bz7-qd-d0d" kind="show" id="BqK-R0-adO"/>
+                                    <segue destination="bz7-qd-d0d" kind="show" identifier="ToDetailSegue" id="BqK-R0-adO"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -42,7 +42,7 @@
                             <outlet property="delegate" destination="ro1-zl-dNr" id="bV4-fa-7L9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="nNU-Aq-HjO"/>
+                    <navigationItem key="navigationItem" title="Rainbow" id="nNU-Aq-HjO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wpa-6u-XdL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
