@@ -16,6 +16,7 @@
 		521E32E8243D62920043756A /* RainbowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E32E7243D62920043756A /* RainbowUITests.swift */; };
 		521E32F6243D6B850043756A /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E32F5243D6B850043756A /* ColorsTableViewController.swift */; };
 		521E32F8243D6BF70043756A /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E32F7243D6BF70043756A /* ColorDetailViewController.swift */; };
+		521E32FE243D6E420043756A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E32FD243D6E420043756A /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		521E32E9243D62920043756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521E32F5243D6B850043756A /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
 		521E32F7243D6BF70043756A /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		521E32FD243D6E420043756A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		521E32F9243D6CE00043756A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				521E32FD243D6E420043756A /* Color.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				521E32C6243D62890043756A /* AppDelegate.swift in Sources */,
 				521E32C8243D62890043756A /* SceneDelegate.swift in Sources */,
 				521E32F6243D6B850043756A /* ColorsTableViewController.swift in Sources */,
+				521E32FE243D6E420043756A /* Color.swift in Sources */,
 				521E32F8243D6BF70043756A /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
